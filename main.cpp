@@ -278,10 +278,12 @@ int main(void) {
 void BC95_setup(void)
 {
     DigitalOut modem_rst (RSTOUT);
+    DigitalOut modem_pwr1 (IO0);
     DigitalOut modem_pwr2 (IO1);
 
     printf("\nBC95 set up...............\n");
-    modem_pwr2 = 0;
+    modem_pwr2 = 1;
+    modem_pwr2 = 1;
     modem_rst = 1;
     wait_ms(1000);
     modem_rst = 0;

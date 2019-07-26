@@ -21,6 +21,7 @@
 
 //#define PACKET_SIZE_MAX 1358
 #define PACKET_SIZE_MAX 512
+//#define PACKET_SIZE_MAX 256
 
 using namespace mbed;
 using namespace mbed_cellular_util;
@@ -33,8 +34,10 @@ QUECTEL_BC95_CellularStack::QUECTEL_BC95_CellularStack(ATHandler &atHandler, int
 
 QUECTEL_BC95_CellularStack::~QUECTEL_BC95_CellularStack()
 {
-    _at.set_urc_handler("+NSONMI:", NULL);
-    _at.set_urc_handler("+NSOCLI:", NULL);
+/*     _at.set_urc_handler("+NSONMI:", NULL);
+    _at.set_urc_handler("+NSOCLI:", NULL);*/
+    _at.set_urc_handler("+NSONMI:", mbed::Callback<void()>(this, &QUECTEL_BC95_CellularStack::urc_nsonmi));
+    _at.set_urc_handler("+NSOCLI:", mbed::Callback<void()>(this, &QUECTEL_BC95_CellularStack::urc_nsocli));    
 }
 
 nsapi_error_t QUECTEL_BC95_CellularStack::socket_listen(nsapi_socket_t handle, int backlog)

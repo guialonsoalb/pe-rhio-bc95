@@ -2,11 +2,11 @@
     {
         "module": "[lib]\\c_w.l", 
         "size": {
-            ".data-delta": 20, 
-            ".text-delta": 19755, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 392, 
             ".data": 20, 
-            ".bss-delta": 392, 
+            ".bss-delta": 0, 
             ".text": 19755
         }
     }, 
@@ -14,7 +14,7 @@
         "module": "[lib]\\fz_wm.l", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 3136, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -25,7 +25,7 @@
         "module": "[lib]\\libcpp_w.l", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 1, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -36,7 +36,7 @@
         "module": "[lib]\\libcppabi_w.l", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 44, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -47,7 +47,7 @@
         "module": "[lib]\\m_wm.l", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 844, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -58,10 +58,10 @@
         "module": "anon$$obj.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 32, 
+            ".text-delta": 0, 
             ".bss": 1280, 
             ".data": 0, 
-            ".bss-delta": 1280, 
+            ".bss-delta": 0, 
             ".text": 32
         }
     }, 
@@ -69,21 +69,21 @@
         "module": "main.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 4269, 
+            ".text-delta": 24, 
             ".bss": 848, 
             ".data": 0, 
-            ".bss-delta": 848, 
-            ".text": 4269
+            ".bss-delta": 0, 
+            ".text": 4293
         }
     }, 
     {
         "module": "mbed-os\\cmsis", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 1021, 
+            ".text-delta": 0, 
             ".bss": 84, 
             ".data": 0, 
-            ".bss-delta": 84, 
+            ".bss-delta": 0, 
             ".text": 1021
         }
     }, 
@@ -91,10 +91,10 @@
         "module": "mbed-os\\components", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 8610, 
+            ".text-delta": 0, 
             ".bss": 56, 
             ".data": 0, 
-            ".bss-delta": 56, 
+            ".bss-delta": 0, 
             ".text": 8610
         }
     }, 
@@ -102,10 +102,10 @@
         "module": "mbed-os\\drivers", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 6481, 
+            ".text-delta": 0, 
             ".bss": 148, 
             ".data": 0, 
-            ".bss-delta": 148, 
+            ".bss-delta": 0, 
             ".text": 6481
         }
     }, 
@@ -113,65 +113,65 @@
         "module": "mbed-os\\events", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 2363, 
+            ".text-delta": 0, 
             ".bss": 4680, 
             ".data": 0, 
-            ".bss-delta": 4680, 
+            ".bss-delta": 0, 
             ".text": 2363
         }
     }, 
     {
         "module": "mbed-os\\features", 
         "size": {
-            ".data-delta": 281, 
-            ".text-delta": 164981, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 8772, 
             ".data": 281, 
-            ".bss-delta": 8772, 
-            ".text": 164981
+            ".bss-delta": 0, 
+            ".text": 165005
         }
     }, 
     {
         "module": "mbed-os\\hal", 
         "size": {
-            ".data-delta": 4, 
-            ".text-delta": 2194, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 66, 
             ".data": 4, 
-            ".bss-delta": 66, 
+            ".bss-delta": 0, 
             ".text": 2194
         }
     }, 
     {
         "module": "mbed-os\\platform", 
         "size": {
-            ".data-delta": 80, 
-            ".text-delta": 8192, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 581, 
             ".data": 80, 
-            ".bss-delta": 581, 
+            ".bss-delta": 0, 
             ".text": 8192
         }
     }, 
     {
         "module": "mbed-os\\rtos", 
         "size": {
-            ".data-delta": 168, 
-            ".text-delta": 14049, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 8538, 
             ".data": 168, 
-            ".bss-delta": 8538, 
+            ".bss-delta": 0, 
             ".text": 14049
         }
     }, 
     {
         "module": "mbed-os\\targets", 
         "size": {
-            ".data-delta": 4, 
-            ".text-delta": 23001, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 1474, 
             ".data": 4, 
-            ".bss-delta": 1474, 
+            ".bss-delta": 0, 
             ".text": 23001
         }
     }, 
@@ -179,7 +179,7 @@
         "module": "mbed_cloud_dev_credentials.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 1547, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -189,11 +189,11 @@
     {
         "module": "simple-mbed-cloud-client\\mbed-cloud-client", 
         "size": {
-            ".data-delta": 235, 
-            ".text-delta": 213371, 
+            ".data-delta": 0, 
+            ".text-delta": 0, 
             ".bss": 6731, 
             ".data": 235, 
-            ".bss-delta": 6731, 
+            ".bss-delta": 0, 
             ".text": 213371
         }
     }, 
@@ -201,10 +201,10 @@
         "module": "simple-mbed-cloud-client\\simple-mbed-cloud-client", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 5150, 
+            ".text-delta": 0, 
             ".bss": 4, 
             ".data": 0, 
-            ".bss-delta": 4, 
+            ".bss-delta": 0, 
             ".text": 5150
         }
     }, 
@@ -212,10 +212,10 @@
         "module": "simple-mbed-cloud-client\\storage-helper", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 775, 
+            ".text-delta": 0, 
             ".bss": 1, 
             ".data": 0, 
-            ".bss-delta": 1, 
+            ".bss-delta": 0, 
             ".text": 775
         }
     }, 
@@ -223,10 +223,10 @@
         "module": "simple-mbed-cloud-client\\update-helper", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 307, 
+            ".text-delta": 0, 
             ".bss": 4, 
             ".data": 0, 
-            ".bss-delta": 4, 
+            ".bss-delta": 0, 
             ".text": 307
         }
     }, 
@@ -234,7 +234,7 @@
         "module": "update_default_resources.o", 
         "size": {
             ".data-delta": 0, 
-            ".text-delta": 461, 
+            ".text-delta": 0, 
             ".bss": 0, 
             ".data": 0, 
             ".bss-delta": 0, 
@@ -244,9 +244,9 @@
     {
         "summary": {
             "static_ram": 34451, 
-            "total_flash_delta": 481376, 
-            "static_ram_delta": 34451, 
-            "total_flash": 481376
+            "total_flash_delta": 24, 
+            "static_ram_delta": 0, 
+            "total_flash": 481424
         }
     }
 ]
