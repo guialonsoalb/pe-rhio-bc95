@@ -1,0 +1,11 @@
+data/bootloader/LICENSE.i
+data/bootloader/mbed-bootloader-RHOMBIO_L476DMW1K.bin.i
+data/mbed-os.lib.i
+data/bootloader/bootloader_app.json.i
+data/main.cpp.i
+data/LICENSE.txt.i
+data/mbed_app.json.i
+data/update_default_resources.c.i
+data/mbed_cloud_dev_credentials.c.i
+data/simple-mbed-cloud-client.lib.i
+data/README.md.i
