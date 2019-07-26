@@ -1,0 +1,252 @@
+[
+    {
+        "module": "[lib]\\c_w.l", 
+        "size": {
+            ".data-delta": 20, 
+            ".text-delta": 19755, 
+            ".bss": 392, 
+            ".data": 20, 
+            ".bss-delta": 392, 
+            ".text": 19755
+        }
+    }, 
+    {
+        "module": "[lib]\\fz_wm.l", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 3136, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 3136
+        }
+    }, 
+    {
+        "module": "[lib]\\libcpp_w.l", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 1, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 1
+        }
+    }, 
+    {
+        "module": "[lib]\\libcppabi_w.l", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 44, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "[lib]\\m_wm.l", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 844, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 844
+        }
+    }, 
+    {
+        "module": "anon$$obj.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 32, 
+            ".bss": 1280, 
+            ".data": 0, 
+            ".bss-delta": 1280, 
+            ".text": 32
+        }
+    }, 
+    {
+        "module": "main.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 4269, 
+            ".bss": 848, 
+            ".data": 0, 
+            ".bss-delta": 848, 
+            ".text": 4269
+        }
+    }, 
+    {
+        "module": "mbed-os\\cmsis", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 1021, 
+            ".bss": 84, 
+            ".data": 0, 
+            ".bss-delta": 84, 
+            ".text": 1021
+        }
+    }, 
+    {
+        "module": "mbed-os\\components", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 8610, 
+            ".bss": 56, 
+            ".data": 0, 
+            ".bss-delta": 56, 
+            ".text": 8610
+        }
+    }, 
+    {
+        "module": "mbed-os\\drivers", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 6481, 
+            ".bss": 148, 
+            ".data": 0, 
+            ".bss-delta": 148, 
+            ".text": 6481
+        }
+    }, 
+    {
+        "module": "mbed-os\\events", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 2363, 
+            ".bss": 4680, 
+            ".data": 0, 
+            ".bss-delta": 4680, 
+            ".text": 2363
+        }
+    }, 
+    {
+        "module": "mbed-os\\features", 
+        "size": {
+            ".data-delta": 281, 
+            ".text-delta": 164981, 
+            ".bss": 8772, 
+            ".data": 281, 
+            ".bss-delta": 8772, 
+            ".text": 164981
+        }
+    }, 
+    {
+        "module": "mbed-os\\hal", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 2194, 
+            ".bss": 66, 
+            ".data": 4, 
+            ".bss-delta": 66, 
+            ".text": 2194
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform", 
+        "size": {
+            ".data-delta": 80, 
+            ".text-delta": 8192, 
+            ".bss": 581, 
+            ".data": 80, 
+            ".bss-delta": 581, 
+            ".text": 8192
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos", 
+        "size": {
+            ".data-delta": 168, 
+            ".text-delta": 14049, 
+            ".bss": 8538, 
+            ".data": 168, 
+            ".bss-delta": 8538, 
+            ".text": 14049
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets", 
+        "size": {
+            ".data-delta": 4, 
+            ".text-delta": 23001, 
+            ".bss": 1474, 
+            ".data": 4, 
+            ".bss-delta": 1474, 
+            ".text": 23001
+        }
+    }, 
+    {
+        "module": "mbed_cloud_dev_credentials.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 1547, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 1547
+        }
+    }, 
+    {
+        "module": "simple-mbed-cloud-client\\mbed-cloud-client", 
+        "size": {
+            ".data-delta": 235, 
+            ".text-delta": 213371, 
+            ".bss": 6731, 
+            ".data": 235, 
+            ".bss-delta": 6731, 
+            ".text": 213371
+        }
+    }, 
+    {
+        "module": "simple-mbed-cloud-client\\simple-mbed-cloud-client", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 5150, 
+            ".bss": 4, 
+            ".data": 0, 
+            ".bss-delta": 4, 
+            ".text": 5150
+        }
+    }, 
+    {
+        "module": "simple-mbed-cloud-client\\storage-helper", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 775, 
+            ".bss": 1, 
+            ".data": 0, 
+            ".bss-delta": 1, 
+            ".text": 775
+        }
+    }, 
+    {
+        "module": "simple-mbed-cloud-client\\update-helper", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 307, 
+            ".bss": 4, 
+            ".data": 0, 
+            ".bss-delta": 4, 
+            ".text": 307
+        }
+    }, 
+    {
+        "module": "update_default_resources.o", 
+        "size": {
+            ".data-delta": 0, 
+            ".text-delta": 461, 
+            ".bss": 0, 
+            ".data": 0, 
+            ".bss-delta": 0, 
+            ".text": 461
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 34451, 
+            "total_flash_delta": 481376, 
+            "static_ram_delta": 34451, 
+            "total_flash": 481376
+        }
+    }
+]
